@@ -96,4 +96,40 @@ Desenvolvido por Guilherme como parte do desafio da DIO.
  Este projeto é de uso livre para fins educacionais.
 
 
- 
+ ### Diagrma do projeto
+
+```mermaid
+classDiagram
+    class ReprodutorMusical {
+        +tocar()
+        +pausar()
+        +selecionarMusica()
+    }
+
+    class AparelhoTelefonico {
+        +ligar()
+        +atender()
+        +iniciarCorreioVoz()
+    }
+
+    class NavegadorInternet {
+        +exibirPagina()
+        +adicionarNovaAba()
+        +atualizarPagina()
+    }
+
+    class iPhone {
+        +tocar()
+        +pausar()
+        +selecionarMusica()
+        +ligar()
+        +atender()
+        +iniciarCorreioVoz()
+        +exibirPagina()
+        +adicionarNovaAba()
+        +atualizarPagina()
+    }
+
+    iPhone ..|> ReprodutorMusical
+    iPhone ..|> AparelhoTelefonico
+    iPhone ..|> NavegadorInternet
