@@ -96,7 +96,7 @@ Desenvolvido por Guilherme como parte do desafio da DIO.
  Este projeto é de uso livre para fins educacionais.
 
 
- ### Diagrma do projeto
+ ### Diagrama do projeto
 
 ```mermaid
 classDiagram
